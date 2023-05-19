@@ -1,0 +1,38 @@
+.social-navbar{
+    padding-top: 7px;
+}
+.social-navbar li{
+    margin-left: 6px;
+}
+.social-navbar li a {
+    color: #fff;
+    padding: 3px 8px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.logo{
+    max-width: 250px;
+}
+.info-box {
+    display: block;
+}
+
+.info-icon {
+    width: fit-content;
+    float: left;
+    font-size: 40px;
+    color: #ddd;
+    margin-right: 15px;
+}
+.info-text span{
+    display: block;
+}
+.info-text span:first-child{
+    color: black;
+    font-weight: bold;
+}
+
+.info-text span:last-child{
+    color: #797272;
+}
