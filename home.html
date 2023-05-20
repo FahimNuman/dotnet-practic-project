@@ -1,18 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FloBite</title>
-    <link rel="stylesheet" href="./css/all.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/custom.style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-
    
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" id="fb"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+
+                    <li id="space2"></li>
+
+                    <li>
+                        <a class="tooltip active" data-tooltip="Home" href="#" id="home"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li>
+                        <a class="tooltip" data-tooltip="Group" href="#" id="group"><i
+                                class="fas fa-user-friends"></i></a>
+                    </li>
+
+                    <li id="space1"></li>
+                    <li>
+                        <button class="tooltip" data-tooltip="Notification" id="btn_bell">
+                            <i class="fas fa-bell"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tooltip" data-tooltip="Profile" id="btn_profile">
+                            <i class="fas fa-user-cog"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+   
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="https://picsum.photos/265/250" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <button class="love-button tooltip" data-tooltip="Love" onclick="increaseCount()">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <div class="count-bar" id="count-bar">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="https://picsum.photos/265/250" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <button class="love-button tooltip" data-tooltip="Love" onclick="increaseCount()">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <div class="count-bar" id="count-bar">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script>
+        let count = 0;
+
+        function increaseCount() {
+            count++;
+            document.getElementById("count-bar").textContent = count;
+        }
+    </script>
 </body>
 
 </html>
