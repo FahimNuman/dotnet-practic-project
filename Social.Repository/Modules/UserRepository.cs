@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Social.Common.Utilities;
 using Social.Repository.Db;
 using Social.Repository.Modules.Interfaces;
 using SocialApp.Models.DbModel;
@@ -17,9 +18,28 @@ namespace Social.Repository.Modules
 			_socialDbContext = socialDbContext;
 		}
 
-		public async Task<IEnumerable<DbUser>>  GetAllUsers()
+		public async Task<IEnumerable<DbUser>>  GetAllUsersAsync()
 		{
 			return await _socialDbContext.Users.ToListAsync();
+		}
+
+		public async Task<DbUser> SaveUserAsync(DbUser model)
+		{
+			if(model == null)
+			{
+				throw new NullReferenceException(ConstantMessages.NullException);
+			}
+
+			bool isExist = await _socialDbContext.Users.AnyAsync( x => x.Email == model.Email);
+			
+			if(isExist)
+			{
+				throw new Exception(ConstantMessages.DataExist);
+			}
+
+			await _socialDbContext.Users.AddAsync(model);
+
+			return model;
 		}
 	}
 }

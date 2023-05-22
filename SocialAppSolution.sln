@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialWebApi", "SocialWebAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialApp.Models", "SocialApp.Models\SocialApp.Models.csproj", "{785C68B5-0395-4D1E-8B1A-7ECA1434FBB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Repository", "Social.Repository\Social.Repository.csproj", "{A807C96B-BAA6-4C42-84ED-F2A9A6020C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.Repository", "Social.Repository\Social.Repository.csproj", "{A807C96B-BAA6-4C42-84ED-F2A9A6020C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Common", "Social.Common\Social.Common.csproj", "{C2A26D05-5FAB-4A39-9E47-FCA4C7483C01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A807C96B-BAA6-4C42-84ED-F2A9A6020C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A807C96B-BAA6-4C42-84ED-F2A9A6020C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A807C96B-BAA6-4C42-84ED-F2A9A6020C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A26D05-5FAB-4A39-9E47-FCA4C7483C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A26D05-5FAB-4A39-9E47-FCA4C7483C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A26D05-5FAB-4A39-9E47-FCA4C7483C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A26D05-5FAB-4A39-9E47-FCA4C7483C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
