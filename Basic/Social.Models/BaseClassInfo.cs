@@ -8,7 +8,11 @@ namespace Social.Models
 {
     public class BaseClassInfo
     {
-        public int CreatedId { get; set; }
+        public BaseClassInfo()
+        {
+            this.CreatedDate = DateTime.Now;
+        }
+        public int CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
         public int? UpdatedBy { get; set; }
         public DateTime? UpdatedDate { get; set; }

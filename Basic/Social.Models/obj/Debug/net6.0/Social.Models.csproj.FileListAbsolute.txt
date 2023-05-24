@@ -1,0 +1,12 @@
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\bin\Debug\net6.0\Social.Models.deps.json
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\bin\Debug\net6.0\Social.Models.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\bin\Debug\net6.0\Social.Models.pdb
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.csproj.AssemblyReference.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.AssemblyInfoInputs.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.AssemblyInfo.cs
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.csproj.CoreCompileInputs.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\refint\Social.Models.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\Social.Models.pdb
+E:\DotNEt\dotnet-practic-project\Basic\Social.Models\obj\Debug\net6.0\ref\Social.Models.dll

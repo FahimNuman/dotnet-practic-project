@@ -1,0 +1,17 @@
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.csproj.AssemblyReference.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.AssemblyInfoInputs.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.AssemblyInfo.cs
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.csproj.CoreCompileInputs.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Repositories.deps.json
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Repositories.runtimeconfig.json
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Repositories.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Repositories.pdb
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Models.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Models.pdb
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.csproj.CopyComplete
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\refint\Social.Repositories.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.pdb
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.genruntimeconfig.cache
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\ref\Social.Repositories.dll

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Social.Models.DbModels
 {
-    public class DbRole
+    public class DbRole: BaseClassInfo
     {
         [Key]
         public int Id { get; set; }
