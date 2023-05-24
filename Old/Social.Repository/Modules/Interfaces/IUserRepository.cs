@@ -9,6 +9,6 @@ namespace Social.Repository.Modules.Interfaces
 {
 	public interface IUserRepository
 	{
-		Task<IEnumerable<DbUser>> GetAllUsers();
+		Task<IEnumerable<DbUser>> GetAllUsersAsync();
 	}
 }
