@@ -9,12 +9,44 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\images\\user1.jpg",
+      "PackagePath": "staticwebassets\\images\\user1.jpg"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\deznav-init.js",
+      "PackagePath": "staticwebassets\\js\\deznav-init.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\highlight.min.js",
+      "PackagePath": "staticwebassets\\js\\highlight.min.js"
+    },
+    {
       "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\js\\styleSwitcher.js",
+      "PackagePath": "staticwebassets\\js\\styleSwitcher.js"
     },
     {
       "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -243,6 +275,410 @@
     {
       "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\aos\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\css\\aos.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\apexchart\\apexchart.js",
+      "PackagePath": "staticwebassets\\vendor\\apexchart\\apexchart.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-datetimepicker\\js\\moment.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\js\\moment.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\chart.js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chart.js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\chartist\\css\\chartist.min.css",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\css\\chartist.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\chartist\\js\\chartist.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\js\\chartist.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\vendor\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\datatables\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\js\\jszip.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\deznav\\deznav.min.js",
+      "PackagePath": "staticwebassets\\vendor\\deznav\\deznav.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\draggable\\draggable.js",
+      "PackagePath": "staticwebassets\\vendor\\draggable\\draggable.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\vendor\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\vendor\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\flot-spline\\jquery.flot.spline.min.js",
+      "PackagePath": "staticwebassets\\vendor\\flot-spline\\jquery.flot.spline.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\vendor\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\vendor\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\global\\global.min.js",
+      "PackagePath": "staticwebassets\\vendor\\global\\global.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\highlightjs\\highlight.pack.min.js",
+      "PackagePath": "staticwebassets\\vendor\\highlightjs\\highlight.pack.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\alpha.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\alpha.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\hue.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\hue.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\saturation.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\saturation.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\transparent.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\transparent.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asColor\\jquery-asColor.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColor\\jquery-asColor.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-asGradient\\jquery-asGradient.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asGradient\\jquery-asGradient.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-steps\\build\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-steps\\build\\jquery.steps.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jqvmap\\css\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\css\\jqvmap.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\jvmap\\jquery-jvectormap.css",
+      "PackagePath": "staticwebassets\\vendor\\jvmap\\jquery-jvectormap.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\css\\lightgallery.min.css",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\css\\lightgallery.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\fonts\\lgd41d.eot",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lgd41d.eot"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\fonts\\lgd641.eot",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lgd641.eot"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\fonts\\lgd641.svg",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lgd641.svg"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\fonts\\lgd641.ttf",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lgd641.ttf"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\fonts\\lgd641.woff",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lgd641.woff"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\img\\video-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\video-play.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\img\\vimeo-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\vimeo-play.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\img\\youtube-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\youtube-play.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\lightgallery\\js\\lightgallery-all.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\js\\lightgallery-all.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\vendor\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\moment\\moment.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\vendor\\morris\\morris.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\nestable2\\css\\jquery.nestable.min.css",
+      "PackagePath": "staticwebassets\\vendor\\nestable2\\css\\jquery.nestable.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\nestable2\\js\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\vendor\\nestable2\\js\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\vendor\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\pickadate\\picker.date.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.date.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\pickadate\\picker.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\pickadate\\picker.time.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.time.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\pickadate\\themes\\default.css",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\themes\\default.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\pickadate\\themes\\default.date.css",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\themes\\default.date.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\vendor\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\star-rating\\jquery.star-rating-svg.js",
+      "PackagePath": "staticwebassets\\vendor\\star-rating\\jquery.star-rating-svg.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\star-rating\\star-rating-svg.css",
+      "PackagePath": "staticwebassets\\vendor\\star-rating\\star-rating-svg.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\svganimation\\svg.animation.js",
+      "PackagePath": "staticwebassets\\vendor\\svganimation\\svg.animation.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\svganimation\\vivus.min.js",
+      "PackagePath": "staticwebassets\\vendor\\svganimation\\vivus.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\swiper\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\swiper\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\tagify\\dist\\tagify.css",
+      "PackagePath": "staticwebassets\\vendor\\tagify\\dist\\tagify.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\tagify\\dist\\tagify.js",
+      "PackagePath": "staticwebassets\\vendor\\tagify\\dist\\tagify.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\toastr\\css\\toastr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\css\\toastr.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\toastr\\js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\js\\toastr.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.WebApp\\wwwroot\\vendor\\wnumb\\wNumb.js",
+      "PackagePath": "staticwebassets\\vendor\\wnumb\\wNumb.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Social.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

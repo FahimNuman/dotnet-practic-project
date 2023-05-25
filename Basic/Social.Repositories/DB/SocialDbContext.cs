@@ -16,5 +16,6 @@ namespace Social.Repositories.DB
         }
 
         public virtual DbSet<DbRole> Roles { get; set; }
+        public virtual DbSet<DbUser> Users { get; set; }
     }
 }
