@@ -53,3 +53,7 @@ textarea.parsley-error {
 .float-right {
     float: right !important;
 }
+
+table.dataTable tbody td {
+    padding: 10px 10px;
+}
