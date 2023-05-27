@@ -19,7 +19,7 @@ namespace Social.Repositories.Administration
 
         public async Task<IEnumerable<DbRole>> GetAllRolesAsync()
         {
-            return await _socialDbContext.Roles.AsNoTracking().ToListAsync();
+            return await _socialDbContext.Roles.AsNoTracking().OrderByDescending(x => x.Id).ToListAsync();
         }
 
         public async Task<DbRole?> GetRoleByIdAsync(int roleId)

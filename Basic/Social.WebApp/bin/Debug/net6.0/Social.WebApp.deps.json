@@ -2258,6 +2258,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Social.Common/1.0.0": {
+        "runtime": {
+          "Social.Common.dll": {}
+        }
+      },
       "Social.Models/1.0.0": {
         "runtime": {
           "Social.Models.dll": {}
@@ -2267,6 +2272,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Social.Common": "1.0.0",
           "Social.Models": "1.0.0"
         },
         "runtime": {
@@ -3484,6 +3490,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Social.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Social.Models/1.0.0": {
       "type": "project",

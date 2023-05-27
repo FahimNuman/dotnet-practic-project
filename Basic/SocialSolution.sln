@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Models", "Social.Models\Social.Models.csproj", "{7B3DE083-2260-4EC4-94DA-9C3B501E2388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.Models", "Social.Models\Social.Models.csproj", "{7B3DE083-2260-4EC4-94DA-9C3B501E2388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Repositories", "Social.Repositories\Social.Repositories.csproj", "{01361244-305B-4E89-B80F-978A458BE63A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.Repositories", "Social.Repositories\Social.Repositories.csproj", "{01361244-305B-4E89-B80F-978A458BE63A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.WebApp", "Social.WebApp\Social.WebApp.csproj", "{FD4E2B59-DBE6-4B96-89F4-A36B8539C327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.WebApp", "Social.WebApp\Social.WebApp.csproj", "{FD4E2B59-DBE6-4B96-89F4-A36B8539C327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Common", "Social.Common\Social.Common.csproj", "{E7585163-22F8-4554-BDBE-8C3462BD39DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FD4E2B59-DBE6-4B96-89F4-A36B8539C327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4E2B59-DBE6-4B96-89F4-A36B8539C327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4E2B59-DBE6-4B96-89F4-A36B8539C327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7585163-22F8-4554-BDBE-8C3462BD39DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7585163-22F8-4554-BDBE-8C3462BD39DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7585163-22F8-4554-BDBE-8C3462BD39DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7585163-22F8-4554-BDBE-8C3462BD39DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

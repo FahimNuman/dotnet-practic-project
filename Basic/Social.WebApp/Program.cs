@@ -1,10 +1,14 @@
 using Microsoft.EntityFrameworkCore;
+using Social.Repositories.Administration;
+using Social.Repositories.Administration.Interfaces;
 using Social.Repositories.DB;
+using Social.Repositories.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRepositories();
 
 builder.Services.AddDbContext<SocialDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("SocialDatabase")

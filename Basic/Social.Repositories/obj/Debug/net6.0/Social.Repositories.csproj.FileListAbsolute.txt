@@ -15,3 +15,5 @@ E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\refi
 E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.pdb
 E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\Social.Repositories.genruntimeconfig.cache
 E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\obj\Debug\net6.0\ref\Social.Repositories.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Common.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.Repositories\bin\Debug\net6.0\Social.Common.pdb

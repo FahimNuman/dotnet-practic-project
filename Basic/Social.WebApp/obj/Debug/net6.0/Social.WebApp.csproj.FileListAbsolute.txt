@@ -273,3 +273,5 @@ E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\runtimes\u
 E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\Social.Common.dll
+E:\DotNEt\dotnet-practic-project\Basic\Social.WebApp\bin\Debug\net6.0\Social.Common.pdb

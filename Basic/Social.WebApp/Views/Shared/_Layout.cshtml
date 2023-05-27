@@ -21,6 +21,8 @@
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png" asp-append-version="true">
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" asp-append-version="true">
+	<link href="~/vendor/toastr/css/toastr.min.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/vendor/datatables/css/jquery.datatables.min.css" rel="stylesheet" asp-append-version="true" />
 	<link href="~/css/style.css" rel="stylesheet" asp-append-version="true">
 	<link href="~/css/site.css" rel="stylesheet" asp-append-version="true">
 	
@@ -32,7 +34,7 @@
     ********************-->
 	<div id="preloader">
 		<div>
-			<img src="images/pre.gif" alt=""> 
+			<img src="~/images/pre.gif" alt=""> 
 		</div>
     </div>
     <div id="main-wrapper">
@@ -164,7 +166,7 @@
 						<span class="nav-text">Administration</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="index.html">Roles</a></li>
+							<li><a asp-action="" asp-controller="Roles" asp-area="Administration">Roles</a></li>
 							<li><a href="index-2.html">Users</a></li>
 							<li><a href="index-2.html">Change Password</a></li>
 						</ul>
@@ -191,7 +193,16 @@
 
 	<script src="~/vendor/global/global.min.js" asp-append-version="true"></script>
     <script src="~/js/custom.js" asp-append-version="true"></script>
+	<script src="~/lib/parsley/parsley.min.js" asp-append-version="true"></script>
+	<script src="~/vendor/toastr/js/toastr.min.js" asp-append-version="true"></script>
+	<script src="~/vendor/datatables/js/jquery.datatables.min.js" asp-append-version="true"></script>
 	<script src="~/js/deznav-init.js" asp-append-version="true"></script>
+	<script>
+		const _baseURL = window.location.origin;
+		const successMessage = "@TempData["InfoMessage"]";
+		const errorMessage = "@TempData["ErrorMessage"]";
+	</script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -783,6 +783,16 @@
           }
         }
       },
+      "Social.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Social.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Social.Common.dll": {}
+        }
+      },
       "Social.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2014,6 +2024,11 @@
         "version.txt"
       ]
     },
+    "Social.Common/1.0.0": {
+      "type": "project",
+      "path": "../Social.Common/Social.Common.csproj",
+      "msbuildProject": "../Social.Common/Social.Common.csproj"
+    },
     "Social.Models/1.0.0": {
       "type": "project",
       "path": "../Social.Models/Social.Models.csproj",
@@ -2026,6 +2041,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
+      "Social.Common >= 1.0.0",
       "Social.Models >= 1.0.0"
     ]
   },
@@ -2062,6 +2078,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.Common\\Social.Common.csproj": {
+              "projectPath": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.Common\\Social.Common.csproj"
+            },
             "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.Models\\Social.Models.csproj": {
               "projectPath": "E:\\DotNEt\\dotnet-practic-project\\Basic\\Social.Models\\Social.Models.csproj"
             }

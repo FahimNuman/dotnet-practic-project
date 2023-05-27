@@ -1,0 +1,28 @@
+﻿@model Social.Models.DbModels.DbRole
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="card dz-card" id="accordion-one">
+    <form asp-action="Create" asp-controller="Roles" asp-area="Administration" method="post" data-parsley-validate>
+        <div class="card-header flex-wrap">
+            <h4 class="card-title">Create Role</h4>
+        </div>
+        <div class="card-body pt-0">
+            <div class="row">
+                <div class="mb-3 col-md-4 col-md-4">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="My Role" asp-for="Name" required>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <a class="btn btn-secondary btn-sm" asp-action="" asp-controller="Roles" asp-area="Administration">Back</a>
+                    <button class="btn btn-success btn-sm float-right" type="submit">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

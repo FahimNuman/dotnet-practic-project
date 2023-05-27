@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Social.Common\Social.Common.csproj" />
     <ProjectReference Include="..\Social.Models\Social.Models.csproj" />
   </ItemGroup>
 
