@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Social.Models.DbModels.DbRole>
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<div class="card dz-card" id="accordion-one">
+    <div class="card-header flex-wrap">
+        <a class="btn btn-primary" asp-action="Create" asp-controller="Roles" asp-area="Administration">Add New</a>
+    </div>
+    <div class="card-body pt-0">
+        <div class="table-responsive">
+            <table id="example" class="display table social_data_table" style="min-width: 845px">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Created Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Name</td>
+                                <td>@item.CreatedDate.ToString("dd-MMM yyy HH:mmtt")</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">
+                                        <i class="fa fa-marker fa_lg"></i>
+                                    </a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">
+                                        <i class="fa fa-delete-left"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Created Date</th>
+                        <th>Action</th>
+
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+</div>
