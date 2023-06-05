@@ -35,6 +35,12 @@ namespace Social.WebApp.Controllers
             return View("~/Views/Accounts/Index.cshtml");
         }
 
+        public async Task<IActionResult> SignOut()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Accounts");
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -44,6 +50,7 @@ namespace Social.WebApp.Controllers
 
             if(ModelState.IsValid)
             {
+
                VwUser? user =  await _userRepo.SaveUserAsync(model);
                 if(user == null)
                 {
@@ -58,6 +65,28 @@ namespace Social.WebApp.Controllers
             return View("~/Views/Accounts/Index.cshtml",model);
         }
 
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(string email, string password)
+        {
+            VwUser? user = await _userRepo.GetAuthorizedUserAsync(email, password);
+            
+            if(user == null )
+            {
+                DisplayMessageHelper.GetOrSetErrorMeesage(this, true, ConstantMessages.InvalidCredential);
+                return View("~/Views/Accounts/Index.cshtml");
+            }
+
+            await SignInToApplicationAsync(user);
+
+            if(user.RoleId == 5)
+            {
+                return RedirectToAction("", "Home");
+            }
+
+            return RedirectToAction("Index", "Roles", new { area = "Administration" });
+        }
 
         #region Private Method
 

@@ -25,19 +25,21 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="login-area">
-                                    <div class="row align-items-center">
-                                        <div class="col-12 col-sm">
-                                            <input type="text" placeholder="Email or Userame" class="single-field">
-                                        </div>
-                                        <div class="col-12 col-sm">
-                                            <input type="password" placeholder="Password" class="single-field">
-                                        </div>
-                                        <div class="col-12 col-sm-auto">
-                                            <button class="login-btn">Login</button>
+                                <form asp-action="Login" asp-controller="Accounts" asp-area="">
+                                    <div class="login-area">
+                                        <div class="row align-items-center">
+                                            <div class="col-12 col-sm">
+                                                <input type="text" placeholder="Email" class="single-field" asp-for="Email">
+                                            </div>
+                                            <div class="col-12 col-sm">
+                                                <input type="password" placeholder="Password" class="single-field" asp-for="Password">
+                                            </div>
+                                            <div class="col-12 col-sm-auto">
+                                                <button class="login-btn" type="submit">Login</button>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -46,7 +48,7 @@
                     <div class="container-fluid p-0">
                         <div class="row g-0">
                             <div class="col-lg-6 order-2 order-lg-1">
-                                <div class="timeline-bg-content bg-img" data-bg="~/assets/images/timeline/adda-timeline.jpg">
+                                <div class="timeline-bg-content bg-img" data-bg="@Url.Content("~/assets/images/timeline/adda-timeline.jpg")">
                                     <h3 class="timeline-bg-title">Let’s see what’s happening to you and your world. Welcome in Adda.</h3>
                                 </div>
                             </div>
@@ -83,6 +85,6 @@
         </div>
     </main>
 
-   
+
 
 </body>

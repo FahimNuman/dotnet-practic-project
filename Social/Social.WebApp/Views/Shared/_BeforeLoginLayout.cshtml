@@ -22,15 +22,16 @@
     <!-- Flat Icon CSS -->
     <link rel="stylesheet" href="~/assets/css/vendor/flaticon.css">
     <!-- audio & video player CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/plyr.css">
+    <link rel="stylesheet" href="~/assets/css/plugins/plyr.css">
     <!-- Slick CSS -->
     <link rel="stylesheet" href="~/assets/css/plugins/slick.min.css">
     <!-- nice-select CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="~/assets/css/plugins/nice-select.css">
     <!-- perfect scrollbar css -->
     <link rel="stylesheet" href="~/assets/css/plugins/perfect-scrollbar.css">
     <!-- light gallery css -->
     <link rel="stylesheet" href="~/assets/css/plugins/lightgallery.min.css">
+    <link href="~/vendor/toastr/css/toastr.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/css/site.css" rel="stylesheet" />
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="~/assets/css/style.css">
@@ -63,8 +64,16 @@
     <script src="~/assets/js/plugins/imagesloaded.pkgd.min.js"></script>
     <!-- isotope filter js -->
     <script src="~/assets/js/plugins/isotope.pkgd.min.js"></script>
+
+    <script src="~/vendor/toastr/js/toastr.min.js" asp-append-version="true"></script>
     <!-- Main JS -->
     <script src="~/assets/js/main.js"></script>
+    <script>
+        const _baseURL = window.location.origin;
+        const successMessage = "@TempData["InfoMessage"]";
+        const errorMessage = "@TempData["ErrorMessage"]";
+    </script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

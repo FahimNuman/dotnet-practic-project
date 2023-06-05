@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Social.Common.Encryption;
 using Social.Common.Utilities;
 using Social.Models.DbModels;
 using Social.Models.VwModel;
@@ -75,7 +76,7 @@ namespace Social.Repositories.Administration
 
         public async Task<VwUser?> GetAuthorizedUserAsync(string email, string password)
         {
-            return await _dbContext.Users.Where(x => x.Email.ToLower() == email.ToLower() && x.Password == password).Select(x => new VwUser
+            return await _dbContext.Users.Where(x => x.Email.ToLower() == email.ToLower() && x.Password == SimpleCryptService.Factory().Encrypt(password)).Select(x => new VwUser
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -103,6 +104,7 @@ namespace Social.Repositories.Administration
                 throw new Exception(ConstantMessages.DataExist);
             }
 
+            model.Password = SimpleCryptService.Factory().Encrypt(model.Password);
             await _dbContext.Users.AddAsync(model);
             await _dbContext.SaveChangesAsync();
 
