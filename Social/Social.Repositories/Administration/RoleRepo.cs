@@ -24,7 +24,7 @@ namespace Social.Repositories.Administration
 
         public async Task<DbRole?> GetRoleByIdAsync(int roleId)
         {
-            return await _socialDbContext.Roles.Where(x => x.Id == roleId).AsNoTracking().FirstOrDefaultAsync();
+            return await _socialDbContext.Roles.Where(x => x.Id == roleId).AsNoTracking().SingleOrDefaultAsync();
         }
 
         public async Task<int> SaveRoleAsync(DbRole model)
@@ -36,7 +36,7 @@ namespace Social.Repositories.Administration
         public async Task<bool> UpdateRoleAsync(DbRole model)
         {
             bool isSuccess = true;
-            DbRole? dbRole = await _socialDbContext.Roles.Where(x => x.Id == model.Id).FirstOrDefaultAsync();
+            DbRole? dbRole = await _socialDbContext.Roles.Where(x => x.Id == model.Id).SingleOrDefaultAsync();
 
             if(dbRole == null)
             {
@@ -56,7 +56,7 @@ namespace Social.Repositories.Administration
         public async Task<bool> DeleteRoleAsync(DbRole model)
         {
             bool isSuccess = true;
-            DbRole? dbRole = await _socialDbContext.Roles.Where(x => x.Id == model.Id).FirstOrDefaultAsync();
+            DbRole? dbRole = await _socialDbContext.Roles.Where(x => x.Id == model.Id).SingleOrDefaultAsync();
 
             if (dbRole == null)
             {

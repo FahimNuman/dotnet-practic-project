@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Social.Repositories.DB;
 
@@ -11,9 +12,10 @@ using Social.Repositories.DB;
 namespace Social.Repositories.Migrations
 {
     [DbContext(typeof(SocialDbContext))]
-    partial class SocialDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230611160354_AddEducationalLevelTable")]
+    partial class AddEducationalLevelTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -59,56 +61,6 @@ namespace Social.Repositories.Migrations
                             Id = 4,
                             Name = "University"
                         });
-                });
-
-            modelBuilder.Entity("Social.Models.DbModels.DbEducationInfo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("AcademicName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("EducationalLevelId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsPresent")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("LevelId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("UpdatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EducationalLevelId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("DbEducationInfo");
                 });
 
             modelBuilder.Entity("Social.Models.DbModels.DbEmployment", b =>
@@ -231,23 +183,6 @@ namespace Social.Repositories.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Social.Models.DbModels.DbEducationInfo", b =>
-                {
-                    b.HasOne("Social.Models.DbModels.DbEducationalLevel", "EducationalLevel")
-                        .WithMany()
-                        .HasForeignKey("EducationalLevelId");
-
-                    b.HasOne("Social.Models.DbModels.DbUser", "User")
-                        .WithMany("EducationInfos")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("EducationalLevel");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Social.Models.DbModels.DbEmployment", b =>
                 {
                     b.HasOne("Social.Models.DbModels.DbUser", "User")
@@ -277,8 +212,6 @@ namespace Social.Repositories.Migrations
 
             modelBuilder.Entity("Social.Models.DbModels.DbUser", b =>
                 {
-                    b.Navigation("EducationInfos");
-
                     b.Navigation("Employments");
                 });
 #pragma warning restore 612, 618

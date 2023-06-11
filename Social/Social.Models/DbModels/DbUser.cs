@@ -26,5 +26,8 @@ namespace Social.Models.DbModels
         [ForeignKey(nameof(RoleId))]
         public int RoleId { get; set; }
         public virtual DbRole? Role { get; set; }
+
+        public virtual ICollection<DbEmployment> Employments { get; set; }
+        public virtual ICollection<DbEducationInfo> EducationInfos { get; set; }
     }
 }

@@ -15,6 +15,7 @@ namespace Social.Repositories.Utilities
         {
             services.AddTransient<IRoleRepo, RoleRepo>();
             services.AddTransient<IUserRepo, UserRepo>();
+            services.AddTransient<IEmploymentRepo, EmploymentRepo>();
             return services;
         }
     }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Social.Repositories.DB;
 
@@ -11,9 +12,10 @@ using Social.Repositories.DB;
 namespace Social.Repositories.Migrations
 {
     [DbContext(typeof(SocialDbContext))]
-    partial class SocialDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230611160731_AddAcademicInformation")]
+    partial class AddAcademicInformation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
