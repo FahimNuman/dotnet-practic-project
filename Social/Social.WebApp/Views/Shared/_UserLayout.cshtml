@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Adda - Social Network HTML Template</title>
@@ -9,7 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     <!-- CSS
     ============================================ -->
@@ -33,12 +34,13 @@
     <link rel="stylesheet" href="~/assets/css/plugins/lightgallery.min.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="~/assets/css/style.css">
+
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    
+    <div>
         @RenderBody()
-   
+    </div>
     <!-- JS
     ============================================ -->
     <!-- Modernizer JS -->
@@ -63,13 +65,5 @@
     <script src="~/assets/js/plugins/isotope.pkgd.min.js"></script>
     <!-- Main JS -->
     <script src="~/assets/js/main.js"></script>
-
-    <script>
-        const _baseURL = window.location.origin;
-        const successMessage = "@TempData["InfoMessage"]";
-        const errorMessage = "@TempData["ErrorMessage"]";
-    </script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
